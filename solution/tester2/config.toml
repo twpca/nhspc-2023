@@ -1,0 +1,78 @@
+[[execs]]
+filename = "agreement_n_2k_plus_1.cc"
+overwrite = { prob_id = "agreement" }
+tests = [
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "AC" },
+  { testcase = "4", expect = "TLE" },
+]
+
+[[execs]]
+filename = "agreement_similar.cc"
+overwrite = { prob_id = "agreement" }
+tests = [
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "WA" },
+  { testcase = "3", expect = "WA" },
+  { testcase = "4", expect = "WA" },
+]
+
+[[execs]]
+filename = "autocopilot_dag.cc"
+overwrite = { prob_id = "autocopilot" }
+tests = [
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+]
+
+[[execs]]
+filename = "convexhull_n3m3.cc"
+overwrite = { prob_id = "convexhull" }
+tests = [
+  { testcase = "1", expect = "TLE" },
+  { testcase = "2", expect = "WA" },
+  { testcase = "3", expect = "TLE" },
+  { testcase = "4", expect = "TLE" },
+]
+
+[[execs]]
+filename = "convexhull_nm3.cc"
+overwrite = { prob_id = "convexhull" }
+tests = [
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "WA" },
+  { testcase = "3", expect = "WA" },
+  { testcase = "4", expect = "WA" },
+]
+
+[[execs]]
+filename = "convexhull_s1eqs2.cc"
+overwrite = { prob_id = "convexhull" }
+tests = [
+  { testcase = "1", expect = "WA" },
+  { testcase = "2", expect = "WA" },
+  { testcase = "3", expect = "AC" },
+  { testcase = "4", expect = "WA" },
+]
+
+[[execs]]
+filename = "monster_onequery.cc"
+overwrite = { prob_id = "monster" }
+tests = [
+  { testcase = "4", expect = "AC" },
+]
+
+[[execs]]
+filename = "monster_onequery_no_dowhile0.cc"
+overwrite = { prob_id = "monster" }
+tests = [
+  { testcase = "4", expect = "AC" },
+]
+
+[[execs]]
+filename = "monster_onequery_wa.cc"
+overwrite = { prob_id = "monster" }
+tests = [
+  { testcase = "4", expect = "WA" },
+]

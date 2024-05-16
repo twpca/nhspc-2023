@@ -1,0 +1,808 @@
+[32;1m$ python3 -m scripts.judge --workers 8[0;m
+Pre compiling...: DONE
+
+Problem agreement Testcase 0:
+ validator:
+  tester1/agreement.cpp: [32mPASS[0m
+  tester2/agreement.cc: [32mPASS[0m
+ solution:
+  tester1/agreement.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001]
+  tester2/agreement.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001]
+
+Problem agreement Testcase 1:
+ validator:
+  tester1/agreement.cpp: [32mPASS[0m
+  tester2/agreement.cc: [32mPASS[0m
+ solution:
+  tester1/agreement.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester2/agreement.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.0, 0.001, 0.001, 0.001, 0.001]
+  tester2/agreement_n_2k_plus_1.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester2/agreement_similar.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+
+Problem agreement Testcase 2:
+ validator:
+  tester1/agreement.cpp: [32mPASS[0m
+  tester2/agreement.cc: [32mPASS[0m
+ solution:
+  tester1/agreement.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.003, 0.003, 0.006, 0.001, 0.001, 0.001]
+  tester2/agreement.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.013, 0.014, 0.022, 0.001, 0.001, 0.001]
+  tester2/agreement_n_2k_plus_1.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 2.807, 2.769, 4.215, 0.001, 0.002, 0.003]
+  tester2/agreement_similar.cc: [32mPASS[0m
+   results:  ['WA', 'AC', 'WA', 'WA', 'WA', 'AC', 'WA', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.0]
+
+Problem agreement Testcase 3:
+ validator:
+  tester1/agreement.cpp: [32mPASS[0m
+  tester2/agreement.cc: [32mPASS[0m
+ solution:
+  tester1/agreement.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002]
+  tester2/agreement.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.002, 0.001, 0.002, 0.003, 0.001, 0.001, 0.002, 0.002]
+  tester2/agreement_n_2k_plus_1.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.002, 0.001, 0.002, 0.002, 0.001, 0.003, 0.003, 0.001, 0.003, 0.036, 0.243, 0.239, 0.003, 0.324, 0.431, 0.003, 0.0, 0.383, 0.469]
+  tester2/agreement_similar.cc: [32mPASS[0m
+   results:  ['WA', 'WA', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.0, 0.0, 0.0]
+
+Problem agreement Testcase 4:
+ validator:
+  tester1/agreement.cpp: [32mPASS[0m
+  tester2/agreement.cc: [32mPASS[0m
+ solution:
+  tester1/agreement.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.374, 0.986, 0.972, 0.976, 0.957, 0.949, 0.859, 0.866, 0.744, 0.818, 0.631, 0.555, 0.006, 0.001, 0.613, 0.587, 0.748]
+  tester2/agreement.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [1.893, 3.466, 3.573, 3.492, 3.486, 3.592, 3.114, 3.181, 2.704, 2.967, 2.394, 2.015, 0.016, 0.001, 2.278, 2.154, 2.729]
+  tester2/agreement_n_2k_plus_1.cc: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'AC', 'AC', 'TLE', 'TLE', 'TLE']
+   time:  [5.084, 5.029, 5.047, 5.027, 5.052, 5.082, 5.096, 5.058, 5.043, 5.04, 5.006, 5.058, 3.05, 0.001, 5.104, 5.014, 5.054]
+  tester2/agreement_similar.cc: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'AC', 'WA', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+
+Problem aisimulation Testcase 0:
+ validator:
+  tnst92002/aisimulation.cc: [32mPASS[0m
+ solution:
+  tester1/aisimulation.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+  tester1/aisimulation_forget3.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.0, 0.001]
+  tester2/aisimulation.cc: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+  tnst92002/aisimulation.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+
+Problem aisimulation Testcase 1:
+ validator:
+  tnst92002/aisimulation.cc: [32mPASS[0m
+ solution:
+  tester1/aisimulation.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester1/aisimulation_forget3.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'WA', 'WA', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.002, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester2/aisimulation.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.0]
+  tnst92002/aisimulation.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+
+Problem aisimulation Testcase 2:
+ validator:
+  tnst92002/aisimulation.cc: [32mPASS[0m
+ solution:
+  tester1/aisimulation.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.0, 0.001, 0.001]
+  tester1/aisimulation_forget3.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester2/aisimulation.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.0, 0.0]
+  tnst92002/aisimulation.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.0, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+
+Problem aisimulation Testcase 3:
+ validator:
+  tnst92002/aisimulation.cc: [32mPASS[0m
+ solution:
+  tester1/aisimulation.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester1/aisimulation_forget3.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'WA']
+   time:  [0.001, 0.002, 0.001, 0.001, 0.001, 0.002, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.001]
+  tester2/aisimulation.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tnst92002/aisimulation.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+
+Problem autocopilot Testcase 0:
+ validator:
+  tester1/autocopilot.cpp: [32mPASS[0m
+  tester2/autocopilot.cc: [32mPASS[0m
+ solution:
+  tester1/autocopilot.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001]
+  tester1/autocopilot_dag.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'WA']
+   time:  [0.001, 0.001, 0.001]
+  tester1/autocopilot_n2m.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001]
+  tester2/autocopilot.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001]
+
+Problem autocopilot Testcase 1:
+ validator:
+  tester1/autocopilot.cpp: [32mPASS[0m
+  tester2/autocopilot.cc: [32mPASS[0m
+ solution:
+  tester1/autocopilot.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.003, 0.002, 0.002, 0.001, 0.038, 0.028, 0.001, 0.001, 0.001]
+  tester1/autocopilot_dag.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.001, 0.001, 0.001, 0.001]
+  tester1/autocopilot_n2m.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'TLE', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.013, 0.001, 0.002, 0.002, 0.156, 1.627, 0.001, 0.001, 0.001]
+  tester1/autocopilot_tree.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester2/autocopilot.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.002, 0.002, 0.002, 0.001, 0.002, 0.001, 0.001, 0.001]
+  tester2/autocopilot_dag.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+
+Problem autocopilot Testcase 2:
+ validator:
+  tester1/autocopilot.cpp: [32mPASS[0m
+  tester2/autocopilot.cc: [32mPASS[0m
+ solution:
+  tester1/autocopilot.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.181, 0.009, 0.229, 0.307, 0.139, 0.195, 0.113, 0.301, 0.296]
+  tester1/autocopilot_dag.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.004, 0.005, 0.004, 0.004, 0.002, 0.002, 0.003, 0.004, 0.004]
+  tester1/autocopilot_n2m.cpp: [32mPASS[0m
+   results:  ['TLE', 'AC', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [1.52, 0.014, 1.517, 1.551, 1.565, 1.524, 1.563, 1.597, 1.583]
+  tester2/autocopilot.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.006, 0.006, 0.006, 0.006, 0.002, 0.003, 0.004, 0.005, 0.006]
+  tester2/autocopilot_dag.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.005, 0.004, 0.004, 0.004, 0.002, 0.003, 0.004, 0.004, 0.004]
+
+Problem autocopilot Testcase 3:
+ validator:
+  tester1/autocopilot.cpp: [32mPASS[0m
+  tester2/autocopilot.cc: [32mPASS[0m
+ solution:
+  tester1/autocopilot.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester1/autocopilot_dag.cpp: [32mPASS[0m
+   results:  ['WA', 'AC', 'AC', 'WA', 'WA', 'AC', 'AC', 'WA', 'WA', 'AC', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester1/autocopilot_fake.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'WA', 'WA', 'AC', 'AC', 'WA', 'AC', 'AC', 'WA', 'WA', 'WA']
+   time:  [0.004, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.004, 0.005, 0.005, 0.005, 0.004]
+  tester1/autocopilot_n2m.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.009, 0.001, 0.001, 0.002, 0.005, 0.004, 0.004, 0.005, 0.006, 0.005, 0.005, 0.004, 0.005]
+  tester2/autocopilot.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+
+Problem autocopilot Testcase 4:
+ validator:
+  tester1/autocopilot.cpp: [32mPASS[0m
+  tester2/autocopilot.cc: [32mPASS[0m
+ solution:
+  tester1/autocopilot.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.553, 0.342, 0.282, 0.001, 0.569, 0.541, 0.549, 0.579, 0.506, 0.544, 0.558, 0.493, 0.452, 0.54, 0.56, 0.566]
+  tester1/autocopilot_dag.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'AC', 'WA', 'AC', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.004, 0.002, 0.002, 0.001, 0.005, 0.004, 0.004, 0.004, 0.005, 0.004, 0.005, 0.004, 0.004, 0.004, 0.005, 0.005]
+  tester1/autocopilot_fake.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'WA', 'AC', 'AC', 'WA', 'WA', 'WA', 'WA', 'AC', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.016, 0.01, 0.009, 0.006, 0.016, 0.016, 0.016, 0.016, 0.015, 0.015, 0.016, 0.016, 0.016, 0.016, 0.016, 0.016]
+  tester1/autocopilot_n2m.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'AC', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [1.523, 1.505, 1.524, 0.001, 1.548, 1.597, 1.538, 1.519, 1.503, 1.569, 1.518, 1.598, 1.545, 1.528, 1.507, 1.678]
+  tester2/autocopilot.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.006, 0.158, 0.097, 0.001, 0.065, 0.38, 0.149, 0.066, 0.006, 0.248, 0.32, 0.006, 0.006, 0.049, 0.25, 0.049]
+
+Problem convexhull Testcase 0:
+ validator:
+  tester2/convexhull.cc: [32mPASS[0m
+ solution:
+  tester1/convexhull.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001]
+  tester1/convexhull_n3m.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.001, 0.0, 0.001]
+  tester1/convexhull_nobitset.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001]
+  tester1/convexhull_subset.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001]
+  tester2/convexhull.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001]
+
+Problem convexhull Testcase 1:
+ validator:
+  tester2/convexhull.cc: [32mPASS[0m
+ solution:
+  tester1/convexhull.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.009, 0.013, 0.015, 0.013, 0.017, 0.015, 0.017, 0.017]
+  tester1/convexhull_n3m.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester1/convexhull_nobitset.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.024, 0.035, 0.039, 0.037, 0.046, 0.045, 0.048, 0.046]
+  tester1/convexhull_subset.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.451, 0.44, 0.453, 0.454, 0.44, 0.495, 0.407, 0.488]
+  tester2/convexhull.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.0, 0.001, 0.013, 0.019, 0.022, 0.019, 0.025, 0.02, 0.026, 0.024]
+  tester2/convexhull_n3m3.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'TLE', 'TLE']
+   time:  [0.001, 0.001, 0.001, 0.0, 0.0, 0.155, 0.243, 0.338, 0.315, 0.398, 0.332, 0.426, 0.478]
+  tester2/convexhull_nm3.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.003, 0.003, 0.004, 0.003, 0.004, 0.004, 0.004, 0.004]
+  tester2/convexhull_s1eqs2.cc: [32mPASS[0m
+   results:  ['WA', 'AC', 'WA', 'AC', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.001, 0.0, 0.001, 0.0, 0.029, 0.04, 0.051, 0.044, 0.051, 0.043, 0.052, 0.051]
+
+Problem convexhull Testcase 2:
+ validator:
+  tester2/convexhull.cc: [32mPASS[0m
+ solution:
+  tester1/convexhull.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester1/convexhull_n3m.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'WA', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester1/convexhull_nobitset.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.002, 0.001, 0.002, 0.002, 0.003, 0.002, 0.002, 0.002]
+  tester1/convexhull_subset.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.015, 0.014, 0.014, 0.014, 0.015, 0.013]
+  tester2/convexhull.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.0, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester2/convexhull_n3m3.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'WA', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.002, 0.002, 0.002, 0.002, 0.002]
+  tester2/convexhull_nm3.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'WA', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.0, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester2/convexhull_s1eqs2.cc: [32mPASS[0m
+   results:  ['WA', 'AC', 'WA', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'AC']
+   time:  [0.001, 0.001, 0.0, 0.001, 0.01, 0.001, 0.003, 0.003, 0.003, 0.004, 0.003, 0.003]
+
+Problem convexhull Testcase 3:
+ validator:
+  tester2/convexhull.cc: [32mPASS[0m
+ solution:
+  tester1/convexhull.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.018, 0.019, 0.019, 0.019, 0.018, 0.018, 0.02, 0.019, 0.019, 0.019]
+  tester1/convexhull_n3m.cpp: [32mPASS[0m
+   results:  ['AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.001, 0.002, 0.002, 0.002, 0.001, 0.002, 0.002, 0.002, 0.002, 0.001, 0.002]
+  tester1/convexhull_nobitset.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.05, 0.052, 0.051, 0.056, 0.054, 0.05, 0.054, 0.049, 0.053, 0.051]
+  tester1/convexhull_subset.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [0.001, 0.001, 0.426, 0.497, 0.438, 0.439, 0.48, 0.433, 0.496, 0.497, 0.491, 0.497]
+  tester2/convexhull.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.0, 0.028, 0.027, 0.026, 0.029, 0.027, 0.026, 0.028, 0.027, 0.028, 0.027]
+  tester2/convexhull_n3m3.cc: [32mPASS[0m
+   results:  ['AC', 'WA', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [0.001, 0.001, 0.421, 0.417, 0.441, 0.481, 0.413, 0.413, 0.478, 0.416, 0.483, 0.485]
+  tester2/convexhull_nm3.cc: [32mPASS[0m
+   results:  ['AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.0, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.006, 0.005]
+  tester2/convexhull_s1eqs2.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.053, 0.051, 0.052, 0.049, 0.046, 0.051, 0.052, 0.053, 0.051, 0.046]
+
+Problem convexhull Testcase 4:
+ validator:
+  tester2/convexhull.cc: [32mPASS[0m
+ solution:
+  tester1/convexhull.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.02, 0.02, 0.02, 0.02, 0.022, 0.017, 0.017, 0.018, 0.017, 0.018]
+  tester1/convexhull_n3m.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.002, 0.002, 0.002, 0.002, 0.002, 0.002, 0.002, 0.002, 0.002, 0.001]
+  tester1/convexhull_nobitset.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.06, 0.065, 0.064, 0.061, 0.073, 0.044, 0.045, 0.046, 0.043, 0.045]
+  tester2/convexhull.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.028, 0.031, 0.03, 0.03, 0.032, 0.023, 0.025, 0.024, 0.023, 0.024]
+  tester2/convexhull_n3m3.cc: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [0.479, 0.477, 0.491, 0.443, 0.466, 0.475, 0.467, 0.472, 0.457, 0.465]
+  tester2/convexhull_nm3.cc: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.006, 0.006, 0.006, 0.006, 0.007, 0.004, 0.004, 0.004, 0.004, 0.004]
+  tester2/convexhull_s1eqs2.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.04, 0.045, 0.045, 0.041, 0.039, 0.053, 0.053, 0.051, 0.053, 0.181]
+
+Problem maze Testcase 0:
+ validator:
+  tester2/maze.cc: [32mPASS[0m
+ solution:
+  tester1/maze.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.007, 0.002, 0.002]
+  tester1/maze_wa.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.007, 0.002, 0.002]
+  tester2/maze.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.0]
+
+Problem maze Testcase 1:
+ validator:
+  tester2/maze.cc: [32mPASS[0m
+ solution:
+  tester1/maze.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.002, 0.04, 0.041, 0.044]
+  tester1/maze_wa.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.002, 0.038, 0.038, 0.037]
+  tester2/maze.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.002, 0.002, 0.001]
+
+Problem maze Testcase 2:
+ validator:
+  tester2/maze.cc: [32mPASS[0m
+ solution:
+  tester1/maze.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.007, 0.002, 0.002, 0.033, 0.03, 0.005]
+  tester1/maze_wa.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.007, 0.002, 0.002, 0.033, 0.033, 0.005]
+  tester2/maze.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.002, 0.001]
+
+Problem maze Testcase 3:
+ validator:
+  tester2/maze.cc: [32mPASS[0m
+ solution:
+  tester1/maze.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.041, 0.042, 0.041]
+  tester1/maze_wa.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA']
+   time:  [0.039, 0.041, 0.04]
+  tester2/maze.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.001, 0.003, 0.003]
+
+Problem monster Testcase 0:
+ validator:
+  tester2/monster.cc: [32mPASS[0m
+ solution:
+  tester1/monster.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+  tester2/monster.cc: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.0]
+
+Problem monster Testcase 1:
+ validator:
+  tester2/monster.cc: [32mPASS[0m
+ solution:
+  tester1/monster.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester2/monster.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.0, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.0, 0.001]
+
+Problem monster Testcase 2:
+ validator:
+  tester2/monster.cc: [32mPASS[0m
+ solution:
+  tester1/monster.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.174, 0.277, 0.324, 0.389, 0.431, 0.572, 0.519, 0.5, 0.529, 0.538]
+  tester2/monster.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.127, 0.143, 0.163, 0.174, 0.181, 0.207, 0.2, 0.202, 0.205, 0.207]
+
+Problem monster Testcase 3:
+ validator:
+  tester2/monster.cc: [32mPASS[0m
+ solution:
+  tester1/monster.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.102, 0.254, 0.298, 0.442, 0.394, 0.349, 0.434, 0.469, 0.426, 0.448]
+  tester2/monster.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.017, 0.04, 0.047, 0.069, 0.063, 0.055, 0.067, 0.075, 0.07, 0.074]
+
+Problem monster Testcase 4:
+ validator:
+  tester2/monster.cc: [32mPASS[0m
+ solution:
+  tester1/monster.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.065, 0.074, 0.08, 0.093, 0.098, 0.107, 0.116, 0.116, 0.122, 0.126, 0.054]
+  tester2/monster.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.0, 0.001, 0.102, 0.111, 0.111, 0.115, 0.119, 0.118, 0.134, 0.131, 0.125, 0.131, 0.065]
+  tester2/monster_onequery.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.0, 0.023, 0.021, 0.046, 0.026, 0.049, 0.051, 0.03, 0.053, 0.045, 0.055, 0.004]
+  tester2/monster_onequery_no_dowhile0.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.024, 0.02, 0.044, 0.025, 0.049, 0.05, 0.03, 0.057, 0.043, 0.056, 0.004]
+  tester2/monster_onequery_wa.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA']
+   time:  [0.001, 0.001, 0.024, 0.022, 0.047, 0.027, 0.052, 0.055, 0.031, 0.056, 0.045, 0.054, 0.004]
+
+Problem monster Testcase 5:
+ validator:
+  tester2/monster.cc: [32mPASS[0m
+ solution:
+  tester1/monster.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.474, 0.375, 0.522, 0.59, 0.565, 0.438, 0.557, 0.545, 0.527, 0.558]
+  tester2/monster.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.24, 0.209, 0.257, 0.269, 0.265, 0.238, 0.265, 0.274, 0.292, 0.303]
+
+Problem museum Testcase 0:
+ validator:
+  tnst92002/museum.cc: [32mPASS[0m
+ solution:
+  tester1/museum.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+  tester2/museum.cc: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.0]
+  tnst92002/museum.cc: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+
+Problem museum Testcase 1:
+ validator:
+  tnst92002/museum.cc: [32mPASS[0m
+ solution:
+  tester1/museum.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester2/museum.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tnst92002/museum.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+
+Problem museum Testcase 2:
+ validator:
+  tnst92002/museum.cc: [32mPASS[0m
+ solution:
+  tester1/museum.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.014, 0.008, 0.009, 0.01, 0.014, 0.014, 0.016, 0.014, 0.014, 0.015, 0.014, 0.008, 0.011]
+  tester2/museum.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.015, 0.009, 0.009, 0.011, 0.015, 0.015, 0.015, 0.015, 0.016, 0.016, 0.015, 0.009, 0.012]
+  tnst92002/museum.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.021, 0.012, 0.011, 0.014, 0.021, 0.021, 0.021, 0.02, 0.021, 0.022, 0.021, 0.011, 0.014]
+
+Problem museum Testcase 3:
+ validator:
+  tnst92002/museum.cc: [32mPASS[0m
+ solution:
+  tester1/museum.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.014, 0.006, 0.009, 0.009, 0.014, 0.013, 0.014, 0.013, 0.014, 0.013, 0.014, 0.008, 0.011, 0.01, 0.01, 0.006, 0.007, 0.006, 0.006]
+  tester2/museum.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.015, 0.008, 0.013, 0.01, 0.015, 0.015, 0.015, 0.016, 0.015, 0.015, 0.015, 0.008, 0.01, 0.014, 0.014, 0.008, 0.01, 0.007, 0.008]
+  tnst92002/museum.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.02, 0.008, 0.012, 0.015, 0.021, 0.016, 0.021, 0.015, 0.02, 0.016, 0.021, 0.011, 0.014, 0.011, 0.012, 0.008, 0.011, 0.009, 0.008]
+
+Problem palindrome Testcase 0:
+ validator:
+  tester1/palindrome.cpp: [32mPASS[0m
+  tester2/palindrome.cc: [32mPASS[0m
+ solution:
+  tester1/palindrome.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester1/palindrome_bruteforce.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester1/palindrome_linear.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.008]
+  tester1/palindrome_n2.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.004]
+  tester2/palindrome.cc: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.0]
+
+Problem palindrome Testcase 1:
+ validator:
+  tester1/palindrome.cpp: [32mPASS[0m
+  tester2/palindrome.cc: [32mPASS[0m
+ solution:
+  tester1/palindrome.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester1/palindrome_bruteforce.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester1/palindrome_linear.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.008]
+  tester1/palindrome_n2.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.003]
+  tester2/palindrome.cc: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.0]
+
+Problem palindrome Testcase 2:
+ validator:
+  tester1/palindrome.cpp: [32mPASS[0m
+  tester2/palindrome.cc: [32mPASS[0m
+ solution:
+  tester1/palindrome.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.003, 0.016]
+  tester1/palindrome_bruteforce.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE']
+   time:  [1.1, 1.1]
+  tester1/palindrome_linear.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.009, 0.022]
+  tester1/palindrome_n2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.005, 0.017]
+  tester2/palindrome.cc: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.0, 0.002]
+
+Problem palindrome Testcase 3:
+ validator:
+  tester1/palindrome.cpp: [32mPASS[0m
+  tester2/palindrome.cc: [32mPASS[0m
+ solution:
+  tester1/palindrome.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.017, 0.017, 0.017]
+  tester1/palindrome_linear.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.025, 0.024, 0.024]
+  tester2/palindrome.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.002, 0.002, 0.002]
+
+Problem palindrome Testcase 4:
+ validator:
+  tester1/palindrome.cpp: [32mPASS[0m
+  tester2/palindrome.cc: [32mPASS[0m
+ solution:
+  tester1/palindrome.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.022, 0.022, 0.022]
+  tester2/palindrome.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.004, 0.004, 0.004]
+
+Problem race Testcase 0:
+ validator:
+  tester1/race.cpp: [32mPASS[0m
+ solution:
+  tester1/race_blea.cpp: [32mPASS[0m
+   results:  ['AC', 'WA']
+   time:  [0.005, 0.005]
+  tester1/race_blea2.cpp: [32mPASS[0m
+   results:  ['WA', 'AC']
+   time:  [0.005, 0.005]
+  tester1/race_nPP.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.0]
+  tester1/race_nn.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+  tester1/race_nnn.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+  tester1/race_segtree.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.005, 0.005]
+  tester2/race.cc: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+
+Problem race Testcase 1:
+ validator:
+  tester1/race.cpp: [32mPASS[0m
+ solution:
+  tester1/race_blea.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'WA', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'WA', 'WA']
+   time:  [0.006, 0.006, 0.006, 0.005, 0.006, 0.006, 0.007, 0.006, 0.005, 0.006, 0.005]
+  tester1/race_blea2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'AC', 'WA', 'AC', 'AC']
+   time:  [0.007, 0.005, 0.008, 0.006, 0.008, 0.006, 0.007, 0.007, 0.006, 0.006, 0.005]
+  tester1/race_nPP.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.004, 0.003, 0.004, 0.005, 0.003, 0.004, 0.003, 0.004, 0.004]
+  tester1/race_nn.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester1/race_nnn.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.004, 0.004, 0.003, 0.004, 0.004, 0.003, 0.005, 0.004, 0.003, 0.004]
+  tester1/race_segtree.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.006, 0.005, 0.006, 0.006, 0.005, 0.006, 0.006, 0.006, 0.006, 0.005, 0.005]
+  tester2/race.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+
+Problem race Testcase 2:
+ validator:
+  tester1/race.cpp: [32mPASS[0m
+ solution:
+  tester1/race_blea.cpp: [32mPASS[0m
+   results:  ['WA', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'AC', 'WA', 'WA']
+   time:  [0.006, 0.005, 0.007, 0.006, 0.007, 0.007, 0.006, 0.006, 0.005, 0.005]
+  tester1/race_blea2.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'AC', 'AC', 'AC', 'WA', 'WA', 'AC', 'AC']
+   time:  [0.005, 0.006, 0.006, 0.006, 0.007, 0.007, 0.006, 0.006, 0.005, 0.005]
+  tester1/race_nPP.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [1.04, 1.083, 1.02, 1.042, 1.018, 1.008, 1.093, 1.044, 1.135, 1.084]
+  tester1/race_nn.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester1/race_nnn.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.004, 0.004, 0.004, 0.004, 0.003, 0.004, 0.004, 0.003, 0.004, 0.004]
+  tester1/race_segtree.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.007, 0.007, 0.006, 0.006, 0.007, 0.006, 0.006, 0.006, 0.005, 0.005]
+  tester2/race.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+
+Problem race Testcase 3:
+ validator:
+  tester1/race.cpp: [32mPASS[0m
+ solution:
+  tester1/race_blea.cpp: [32mPASS[0m
+   results:  ['WA', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.01, 0.009, 0.009, 0.009, 0.01, 0.012, 0.009, 0.008, 0.01, 0.011, 0.009, 0.011, 0.01, 0.011, 0.009]
+  tester1/race_blea2.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'WA', 'AC', 'AC', 'AC']
+   time:  [0.01, 0.009, 0.008, 0.01, 0.011, 0.011, 0.009, 0.009, 0.01, 0.011, 0.01, 0.009, 0.01, 0.01, 0.01]
+  tester1/race_nn.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.738, 0.009, 0.009, 0.218, 0.573, 0.612, 0.574, 0.292, 0.566, 0.673, 0.734, 0.675, 0.527, 0.572, 0.485]
+  tester1/race_nnn.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [1.087, 1.035, 1.099, 1.012, 1.053, 1.026, 1.062, 1.01, 1.084, 1.031, 1.061, 1.042, 1.081, 1.083, 1.031]
+  tester1/race_segtree.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.012, 0.01, 0.01, 0.01, 0.012, 0.011, 0.011, 0.01, 0.01, 0.012, 0.013, 0.011, 0.012, 0.01, 0.009]
+  tester2/race.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.008, 0.007, 0.006, 0.006, 0.006, 0.006, 0.005, 0.009, 0.005, 0.006, 0.009, 0.009, 0.008, 0.006, 0.007]
+
+Problem race Testcase 4:
+ validator:
+  tester1/race.cpp: [32mPASS[0m
+ solution:
+  tester1/race_blea.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.211, 0.465, 0.465, 0.314, 0.16, 0.33, 0.458, 0.294, 0.005, 0.026]
+  tester1/race_blea2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.205, 0.466, 0.456, 0.324, 0.154, 0.316, 0.466, 0.29, 0.005, 0.028]
+  tester1/race_segtree.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.208, 0.478, 0.475, 0.335, 0.155, 0.333, 0.462, 0.3, 0.005, 0.026]
+  tester2/race.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.155, 0.367, 0.375, 0.294, 0.18, 0.315, 0.361, 0.245, 0.001, 0.019]
+
+Problem race Testcase 5:
+ validator:
+  tester1/race.cpp: [32mPASS[0m
+ solution:
+  tester1/race_blea.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'AC', 'WA', 'AC', 'AC', 'AC', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.159, 0.35, 0.353, 0.299, 0.223, 0.357, 0.226, 0.301, 0.344, 0.354, 0.375, 0.337, 0.394]
+  tester1/race_blea2.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'AC', 'AC', 'AC', 'AC', 'WA', 'AC', 'AC', 'AC']
+   time:  [0.161, 0.354, 0.361, 0.24, 0.223, 0.358, 0.221, 0.304, 0.351, 0.343, 0.36, 0.327, 0.351]
+  tester1/race_segtree.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.19, 0.442, 0.434, 0.34, 0.233, 0.373, 0.246, 0.301, 0.348, 0.435, 0.377, 0.354, 0.378]
+  tester2/race.cc: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.239, 0.541, 0.545, 0.448, 0.288, 0.311, 0.57, 0.246, 0.289, 0.515, 0.341, 0.41, 0.325]
+
+All tests passed
+section_end:1702372829:step_script[0Ksection_start:1702372829:cleanup_file_variables[0K[0K[36;1mCleaning up project directory and file based variables[0;m[0;m
+section_end:1702372830:cleanup_file_variables[0K[32;1mJob succeeded[0;m

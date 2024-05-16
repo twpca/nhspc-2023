@@ -1,0 +1,201 @@
+[[execs]]
+filename = "palindrome.cpp"
+overwrite = { prob_id = "palindrome" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "AC" },
+  { testcase = "4", expect = "AC" }
+]
+
+[[execs]]
+filename = "palindrome_bruteforce.cpp"
+overwrite = { prob_id = "palindrome" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "TLE" }
+  # skip subtask 3, 4 
+]
+
+[[execs]]
+filename = "palindrome_n2.cpp"
+overwrite = { prob_id = "palindrome" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" }
+  # skip subtask 3, 4 
+]
+
+[[execs]]
+filename = "palindrome_linear.cpp"
+overwrite = { prob_id = "palindrome" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "AC" }
+  # skip subtask 4 
+]
+
+[[execs]]
+filename = "race_nPP.cpp"
+overwrite = { prob_id = "race" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "TLE" }
+  # skip subtask 3, 4, 5
+]
+
+[[execs]]
+filename = "race_nnn.cpp"
+overwrite = { prob_id = "race" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "TLE" }
+  # skip subtask 4, 5
+]
+
+[[execs]]
+filename = "race_nn.cpp"
+overwrite = { prob_id = "race" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "AC" }
+  # skip subtask 4, 5
+]
+
+[[execs]]
+filename = "race_blea.cpp"
+overwrite = { prob_id = "race" }
+tests = [
+  { testcase = "0", expect = "WA" },
+  { testcase = "1", expect = "WA" },
+  { testcase = "2", expect = "WA" },
+  { testcase = "3", expect = "WA" },
+  { testcase = "4", expect = "AC" },
+  { testcase = "5", expect = "WA" }
+]
+
+[[execs]]
+filename = "race_blea2.cpp"
+overwrite = { prob_id = "race" }
+tests = [
+  { testcase = "0", expect = "WA" },
+  { testcase = "1", expect = "WA" },
+  { testcase = "2", expect = "WA" },
+  { testcase = "3", expect = "WA" },
+  { testcase = "4", expect = "AC" },
+  { testcase = "5", expect = "WA" }
+]
+
+[[execs]]
+filename = "race_segtree.cpp"
+overwrite = { prob_id = "race" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "AC" },
+  { testcase = "4", expect = "AC" },
+  { testcase = "5", expect = "AC" }
+]
+
+[[execs]]
+filename = "convexhull_subset.cpp"
+overwrite = { prob_id = "convexhull" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "TLE" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "TLE" }
+  # skip subtask 4
+]
+
+[[execs]]
+filename = "convexhull_n3m.cpp"
+overwrite = { prob_id = "convexhull" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "WA" },
+  { testcase = "3", expect = "WA" },
+  { testcase = "4", expect = "WA" }
+]
+
+[[execs]]
+filename = "convexhull_nobitset.cpp"
+overwrite = { prob_id = "convexhull" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "AC" },
+  { testcase = "4", expect = "AC" }
+]
+
+[[execs]]
+filename = "maze_wa.cpp"
+overwrite = { prob_id = "maze" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "aisimulation_forget3.cpp"
+overwrite = { prob_id = "aisimulation" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "WA" },
+  { testcase = "2", expect = "WA" },
+  { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "autocopilot_n2m.cpp"
+overwrite = { prob_id = "autocopilot" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "TLE" },
+  { testcase = "2", expect = "TLE" },
+  { testcase = "3", expect = "AC" },
+  { testcase = "4", expect = "TLE" }
+]
+
+[[execs]]
+filename = "autocopilot_dag.cpp"
+overwrite = { prob_id = "autocopilot" }
+tests = [
+  { testcase = "0", expect = "WA" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "WA" },
+  { testcase = "4", expect = "WA" }
+]
+
+[[execs]]
+filename = "autocopilot_tree.cpp"
+overwrite = { prob_id = "autocopilot" }
+tests = [
+  { testcase = "1", expect = "AC" }
+  # skip subtask 0, 2, 3, 4
+]
+
+[[execs]]
+filename = "autocopilot_fake.cpp"
+overwrite = { prob_id = "autocopilot" }
+tests = [
+  { testcase = "3", expect = "WA" },
+  { testcase = "4", expect = "WA" }
+  # skip subtask 0, 1, 2
+]
